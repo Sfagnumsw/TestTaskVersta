@@ -1,0 +1,14 @@
+﻿<div>
+    <table>
+        <caption>Список заказов</caption>
+        <thead>
+            <tr><th>Номер заказа</th><th>Город отправителя</th><th>Адрес отправителя</th><th>Город получателя</th><th>Адрес получателя</th><th>Вес груза</th><th>Дата забора груза</th><th>Дата формирования заказа</th></tr>
+        </thead>
+        <tbody>
+            @foreach(var i in (List<FormPost>)ViewBag.OrderList)
+             {
+                <tr><td>@i.Id</td><td>@i.SenderCity</td><td>@i.AddressSender</td><td>@i.ResipientCity</td><td>@i.AddressResipient</td><td>@i.CargoWeight</td><td>@i.DateReceipt</td><td>@i.OrderDate</td></tr>
+             }
+        </tbody>
+    </table>
+</div>

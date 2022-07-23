@@ -1,0 +1,32 @@
+﻿<div>
+    <form asp-action="OrderPost" asp-controller="Home" method="post">
+        <div asp-validation-summary="All"></div>
+        <div>
+            <label asp-for="SenderCity"></label>
+            <input asp-for="SenderCity" />
+        </div>
+        <div>
+            <label asp-for="AddressSender"></label>
+            <input asp-for="AddressSender" />
+        </div>
+        <div>
+            <label asp-for="ResipientCity"></label>
+            <input asp-for="ResipientCity" />
+        </div>
+        <div>
+            <label asp-for="AddressResipient"></label>
+            <input asp-for="AddressResipient" />
+        </div>
+        <div>
+            <label asp-for="CargoWeight"></label>
+            <input asp-for="CargoWeight" />
+        </div>
+        <div>
+            <label asp-for="DateReceipt"></label>
+            <input asp-for="DateReceipt" />
+        </div>
+        <div>
+            <input type="submit" value="Сформировать заказ" />
+        </div>
+    </form>
+</div>
