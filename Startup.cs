@@ -35,7 +35,7 @@ namespace TestTask
             app.UseStaticFiles();
             app.UseRouting();
             app.UseStatusCodePages();
-            app.UseEndpoints(endpoints => { endpoints.MapControllerRoute("default", "{controller=Home}/{action=Index}/{id?}"); });
+            app.UseEndpoints(endpoints => { endpoints.MapControllerRoute("default", "{controller=Home}/{action=OrderPost}/{id?}"); });
         }
     }
 }

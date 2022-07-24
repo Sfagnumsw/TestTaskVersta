@@ -6,11 +6,15 @@
 </head>
 <body>
     <div>
+        <div>
         @await Html.PartialAsync("HeaderPartial")
+        </div>
         <div>
             @RenderBody()
         </div>
+        <div>
         @await Html.PartialAsync("FooterPartial")
+        </div>
     </div>
 </body>
 </html>

@@ -1,32 +1,26 @@
-﻿<div>
-    <form asp-action="OrderPost" asp-controller="Home" method="post">
+﻿<div class="container-post">
+    <form asp-action="OrderPost" asp-controller="Home" method="post" class="form-post">
         <div asp-validation-summary="All"></div>
-        <div>
-            <label asp-for="SenderCity"></label>
-            <input asp-for="SenderCity" />
+        <div class="form-items">
+            <input asp-for="SenderCity" placeholder="Город отправителя"/>
+        </div>
+        <div class="form-items">
+            <input asp-for="AddressSender" placeholder="Адрес отправителя"/>
+        </div>
+        <div class="form-items">
+            <input asp-for="ResipientCity" placeholder="Город получателя"/>
+        </div>
+        <div class="form-items">
+            <input asp-for="AddressResipient" placeholder="Адрес получателя"/>
+        </div>
+        <div class="form-items">
+            <input asp-for="CargoWeight" placeholder="Вес груза"/>
+        </div>
+        <div class="form-items">
+            <input asp-for="DateReceipt" placeholder="Дата получения груза"/>
         </div>
         <div>
-            <label asp-for="AddressSender"></label>
-            <input asp-for="AddressSender" />
-        </div>
-        <div>
-            <label asp-for="ResipientCity"></label>
-            <input asp-for="ResipientCity" />
-        </div>
-        <div>
-            <label asp-for="AddressResipient"></label>
-            <input asp-for="AddressResipient" />
-        </div>
-        <div>
-            <label asp-for="CargoWeight"></label>
-            <input asp-for="CargoWeight" />
-        </div>
-        <div>
-            <label asp-for="DateReceipt"></label>
-            <input asp-for="DateReceipt" />
-        </div>
-        <div>
-            <input type="submit" value="Сформировать заказ" />
+            <input type="submit" value="Сформировать заказ" class="sub"/>
         </div>
     </form>
 </div>

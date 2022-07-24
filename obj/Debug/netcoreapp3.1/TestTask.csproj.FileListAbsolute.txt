@@ -50,7 +50,6 @@ C:\Users\Sfagnum\Documents\обучение\Программирование\C#\
 C:\Users\Sfagnum\Documents\обучение\Программирование\C#\Тестовое задание\TestTask\obj\Debug\netcoreapp3.1\TestTask.dll
 C:\Users\Sfagnum\Documents\обучение\Программирование\C#\Тестовое задание\TestTask\obj\Debug\netcoreapp3.1\TestTask.pdb
 C:\Users\Sfagnum\Documents\обучение\Программирование\C#\Тестовое задание\TestTask\obj\Debug\netcoreapp3.1\TestTask.genruntimeconfig.cache
-C:\Users\Sfagnum\Documents\обучение\Программирование\C#\Тестовое задание\TestTask\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\Sfagnum\Documents\обучение\Программирование\C#\Тестовое задание\TestTask\obj\Debug\netcoreapp3.1\Razor\Views\Shared\CssPartial.cshtml.g.cs
 C:\Users\Sfagnum\Documents\обучение\Программирование\C#\Тестовое задание\TestTask\obj\Debug\netcoreapp3.1\Razor\Views\Shared\FooterPartial.cshtml.g.cs
 C:\Users\Sfagnum\Documents\обучение\Программирование\C#\Тестовое задание\TestTask\obj\Debug\netcoreapp3.1\Razor\Views\Shared\MetatagsPartial.cshtml.g.cs
@@ -84,3 +83,4 @@ C:\users\sfagnum\documents\обучение\программирование\c#\
 C:\users\sfagnum\documents\обучение\программирование\c#\тестовое задание\testtask\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Sfagnum\Documents\обучение\Программирование\C#\Тестовое задание\TestTask\obj\Debug\netcoreapp3.1\Razor\Views\Home\OrderList.cshtml.g.cs
 C:\Users\Sfagnum\Documents\обучение\Программирование\C#\Тестовое задание\TestTask\obj\Debug\netcoreapp3.1\Razor\Views\Home\OrderPost.cshtml.g.cs
+C:\Users\Sfagnum\Documents\обучение\Программирование\C#\Тестовое задание\TestTask\obj\Debug\netcoreapp3.1\TestTask.csproj.AssemblyReference.cache

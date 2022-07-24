@@ -1,8 +1,8 @@
-﻿<div>
+﻿<div class="table-container">
     <table>
         <caption>Список заказов</caption>
         <thead>
-            <tr><th>Номер заказа</th><th>Город отправителя</th><th>Адрес отправителя</th><th>Город получателя</th><th>Адрес получателя</th><th>Вес груза</th><th>Дата забора груза</th><th>Дата формирования заказа</th></tr>
+            <tr><th>Номер заказа</th><th>Город отправителя</th><th>Адрес отправителя</th><th>Город получателя</th><th>Адрес получателя</th><th>Вес груза   </th><th>Дата забора груза   </th><th>Дата формирования заказа</th></tr>
         </thead>
         <tbody>
             @foreach(var i in (List<FormPost>)ViewBag.OrderList)

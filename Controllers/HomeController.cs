@@ -12,10 +12,6 @@ namespace TestTask.Controllers
         {
             _form = form;
         }
-        public IActionResult Index()
-        {
-            return View();
-        }
 
         [HttpGet]
         public IActionResult OrderPost()
