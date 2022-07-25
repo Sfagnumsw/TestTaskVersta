@@ -16,7 +16,7 @@ namespace TestTask.Models.Repositories
             _context = context;
         }
 
-        public void AddOrder(FormPost form)
+        public async void AddOrder(FormPost form)
         {
             if(form.Id == default)
             {
@@ -26,12 +26,6 @@ namespace TestTask.Models.Repositories
             {
                 _context.Entry(form).State = EntityState.Modified;
             }
-            _context.SaveChanges();
-        }
-
-        public void RemoveOrder(int id)
-        {
-            _context.FormPost.Remove(new FormPost() { Id = id });
             _context.SaveChanges();
         }
 

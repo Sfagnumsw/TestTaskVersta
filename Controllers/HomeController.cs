@@ -16,11 +16,12 @@ namespace TestTask.Controllers
         [HttpGet]
         public IActionResult OrderPost()
         {
+            ViewBag.Title = "Формирование заказа";
             return View();
         }
 
         [HttpPost]
-        public  IActionResult OrderPost(FormPost obj)
+        public IActionResult OrderPost(FormPost obj)
         {
             _form.AddOrder(obj);
             return RedirectToAction("OrderPost", "Home");
@@ -28,6 +29,7 @@ namespace TestTask.Controllers
 
         public async Task<IActionResult> OrderList()
         {
+            ViewBag.Title = "Список заказов";
             ViewBag.OrderList = await _form.GetAllOrder();
             return View();
         }

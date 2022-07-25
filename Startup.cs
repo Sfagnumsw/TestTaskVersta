@@ -16,7 +16,6 @@ namespace TestTask
     {
         public IConfiguration Configuration { get; }
         public Startup(IConfiguration configuration) => Configuration = configuration;
-
         public void ConfigureServices(IServiceCollection services)
         {
             Configuration.Bind("Project", new Config());
